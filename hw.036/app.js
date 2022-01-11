@@ -7,13 +7,13 @@ while (i < userHeight) {
   freeSpace = "";
   stars = "";
   for (j = 0; j < userHeight - i; j++) {
-      freeSpace += "*"
+      freeSpace += " "
     }; 
   for (j = 0; j < 1 ; j++) { 
       stars += "/"
     };
   for (j = 1; j < 2 ; j++) { 
-      innerSpace += "|"
+      innerSpace += " "
     };
   for (j = 0; j < 1 ; j++) { 
       leftStars += "\\"
