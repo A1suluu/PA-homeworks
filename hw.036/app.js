@@ -47,8 +47,3 @@ while (i < userHeight) {
 
 
 
-
-// for (j = 0; j < 2 * i + 1; j++) stars += "*";
-// freeSpace = "", stars = "", i = 0;
-// for (j = 0; j < max - i; j++) freeSpace += " ";
-// console.log(freeSpace + stars);
