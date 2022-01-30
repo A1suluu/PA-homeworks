@@ -1,27 +1,26 @@
-let i = 1, j = 1;
+let i = 0, j = 0;
 let userHeight = prompt("Введите число");
-let freeSpace = "", stars = "", leftStars = "", innerSpace = "", leftSpace = "";
+let freeSpace = "", stars = "", leftStars = "", innerSpace = "";
 
 
-while (i < userHeight) {
-  freeSpace = "";
-  stars = "";
-  for (j = 0; j < userHeight - i; j++) {
+while (i < userHeight) 
+{
+  freeSpace = " ";
+  stars = " ";
+  for (j = 0; j < userHeight - i; j++) 
+    {
       freeSpace += " "
     }; 
-  for (j = 0; j < 1 ; j++) { 
+  for (j = 0; j < 1 ; j++) 
+    { 
       stars += "/"
-    };
-  for (j = 1; j < 2 ; j++) { 
       innerSpace += " "
     };
-  for (j = 0; j < 1 ; j++) { 
+  for (j = 0; j < 1 ; j++) 
+    { 
+      innerSpace += " "
       leftStars += "\\"
     }; 
-//  for (j = 1; j < 2 ; j++) { 
-//       leftSpace += "^"
-//     };   
-
 
   console.log(freeSpace + stars + innerSpace + leftStars );
   i++;

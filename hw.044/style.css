@@ -1,0 +1,38 @@
+* {
+    box-sizing:border-box;
+  }
+  input {
+    vertical-align:middle;
+  }
+  #light {
+    display:inline-block;
+    vertical-align:middle;
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background:yellow;
+  }
+  #secondPart , #firstPart , #thirdPart {
+    position: absolute;
+    left: 41px;
+    width: 20px;
+    height: 15px;
+  }
+  #firstPart {
+    top: 40px;
+    background-color: yellow;
+  }
+  #secondPart {
+    top: 55px;
+    background-color: rgb(0, 0, 0);
+  }
+#thirdPart {
+  top: 58px;
+  background-color: rgb(0, 0, 0);
+  border-top: 20px solid black;
+  border-radius: 10px
+}
+
+
+
+
