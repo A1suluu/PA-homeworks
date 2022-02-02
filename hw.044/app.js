@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const lightOf = document.getElementById("light")
     const partOflamp = document.getElementById("firstPart")
     let counter = 0
+    
     btn.addEventListener("click", () => {
         if (counter == 0) {
                 lightOf.style.backgroundColor = "yellow"
