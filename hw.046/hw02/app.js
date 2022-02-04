@@ -11,7 +11,7 @@ const bcgrBody = document.querySelector("body")
 
 
 let timeId = null
-// let flag = 0
+
 
 function pomodoro () 
 {
@@ -28,6 +28,7 @@ function pomodoro ()
     {
         timeText.innerText = "минут"
     };
+
     if (num === 0) 
     {
         timeText.innerText = "минут"
@@ -60,15 +61,4 @@ upDateBtn.addEventListener("click", () => {
     }) 
 })
 
-
-
-// f.stopped = false;
-// function stopped(boolean){ return f.stopped = boolean; };
- 
-// function f(){ if(f.stopped === true) break; else { тело функции } };
- 
-// f();// Запустили функцию
-// stopped(true);// остановили
-// stopped(false);// открыли возможность выполнять тело функции
-// f();// запустили функцию
 
