@@ -7,7 +7,7 @@
 
 function func(arr) {
 	for (let elem of arr) {
-        if (typeof elem == 'object') {
+        if (typeof elem == 'object') {     //array.isArray(obj)
 			func(elem);
             // console.log(typeof (elem))
 		} else {
