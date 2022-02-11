@@ -1,55 +1,16 @@
-// function checkAge(age) {
-//     if (age > 18) {
-//       return true;
-//     } else {
-//       return confirm('Родители разрешили?');
-//     }
-// }
-
-
- // Используя оператор ?:
-
-// function checkAge(age) {
-//     return (age > 18) ? true : confirm('Родители разрешили?');
-// }
-
-
-// Используя оператор || (самый короткий вариант):
-
-// function checkAge(age) {
-//     return (age > 18) || confirm('Родители разрешили?');
-// }
-
-
-
-// Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b.
-
-  function min(a, b) {
-      if(a < b) {
-          return a;
-      } else {
-          return b;
-      }
-  }
-
-
- 
-
-
-function pow(x, n) {
-    return(x ** n)
+document.addEventListener("DOMContentLoaded", () => {
+    const plusBtn = document.querySelector("button")
+    const resultDiv = document.querySelector("div")
+    let result = 0 
+    
+    plusBtn.addEventListener("click", calculate)
+    
+    function calculate () {
+    const num1 = Number(document.getElementById("firstIn").value)
+    const num2 = Number(document.getElementById("secondIn").value)
+    result = num1 + num2
+    resultDiv.innerText = result
+    console.log(resultDiv)
 }
 
-let x = Number (prompt());
-let n = Number (prompt());
-
-
-if (n < 1) {
-    console.log(`Степень ${n} не поддерживается, используйте натуральное число`);
-}
-
-console.log(pow(x, n))
-
-
-
-
+})
