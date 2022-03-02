@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.field {
+    background-color:rgb(98, 183, 216);
+    width: 100vw;
+    height: 100vh;
+}
+.air {
+    height: 70%;
+    width: 100%;
+}
+/* .scoresText {
+    padding: 10px 10px;
+} */
+.earth {
+    background-color: rgb(9, 109, 9);
+    height: 30%;
+    width: 100%;
+}
+.gamer {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transition: 0,3s;
+}
+.tree {
+   position: absolute;
+   top: 60%;
+   left: 500px;
+   background-color: brown;
+   height: 100px;
+   width: 25px;
+}
+/* @keyframes treeMove {
+    0% {
+        left: 500px;
+    }
+    100% {
+        left:  - 20px;
+    }
+    animation: treeMove 3s infinite linear;
+} */
