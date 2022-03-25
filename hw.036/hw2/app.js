@@ -10,7 +10,7 @@ while (i < userHeight) {
       freeSpace += " "
     }; 
   for (j = 1; j < 2 * i + 1; j++) { 
-      stars += "/"
+      stars += "*"
     };
 
   console.log(freeSpace + stars);
