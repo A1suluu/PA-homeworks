@@ -13,9 +13,12 @@
     height: 70%;
     width: 100%;
 }
-/* .scoresText {
-    padding: 10px 10px;
-} */
+.scoresText {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    font-size: 20px;
+}
 .earth {
     background-color: rgb(9, 109, 9);
     height: 30%;
@@ -35,6 +38,7 @@
    height: 100px;
    width: 25px;
 }
+
 /* @keyframes treeMove {
     0% {
         left: 500px;

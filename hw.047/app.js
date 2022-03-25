@@ -33,7 +33,6 @@ function go (event) {
 
     // console.log(x, y)
     setTimeout(() => checkStop(), 310)
-    givePoints()
 }
 
 function checkStop() {
@@ -70,7 +69,7 @@ function checkStop() {
     }
 
     if (!gameStop && handX > x1) {
-        points += 1
+        points ++
         // alert("You get 10 scores!")
         getPoints = true
     }
